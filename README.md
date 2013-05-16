@@ -16,6 +16,11 @@ Add the following to your **application/bundles.php** file
 'magentoapi' => array('auto' => true, 'handles' => 'magentoapi')
 ```
 
+Publish bundle assets into the public directory
+```
+php artisan bundle:publish magentoapi
+```
+
 Configuration
 -------------
 Once installed, open **bundles/magentoapi/config/options.php** file and edit the configuration options
